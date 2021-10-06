@@ -21,7 +21,19 @@ vim 4.txt
 Домашних животный пока что нет, есть металлическое ведро
 Желаемая зарплата 300-400$ на момент испытательного срока
  13. Отредактировать содержание файла “new2.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
-vim 6.json (текст тот же что и ранее)
+vim 6.json
+{
+"name": "Aivory",
+"age": 24,
+"pets": 0,
+"DsiredSalary": 300,
+"DsiredSalary": 400,
+"Film": "Spider",
+"Serial": "Sherlock",
+"food": "ramen",
+"season": "Spring",
+"Country": "Japan"
+}
  14. Добавить и закоммитить “new2.txt” одной строчкой. 
 git commit -am "changing a file"
  15. Добавить и закоммитить “new2.json” одной строчкой. 
@@ -29,7 +41,18 @@ git commit -am "changing a file"
  16. Отправить изменения на внешний репозиторий.
 git push
  17. Отредактировать содержание файла “new2.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
-vim 3.xml (текст тот же что и ранее)
+vim 3.xml 
+<information>
+	<name>Aivory</name>
+	<age>27</age>
+	<pets>0</pets>
+	<desiredSalary>300-400$</desiredSalary>
+	<film>Spider</film>
+	<serial>Sherlok</serial>
+	<food>ramen</food>
+	<season>Spring</season>
+	<country>Japan</country>
+</infomation>
  18. Добавить и закоммитить “new2.xml” одной строчкой. 
  git commit -am "changing a file"
  19. Отправить изменения на внешний репозиторий.
