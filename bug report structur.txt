@@ -1,0 +1,23 @@
+Summary - brief description of the problem
+Project - Name of the project under test
+Component - Name of the part or function of the product under test
+Version - The version on which the error was found
+Severity - Trivial
+Priority - Low
+Status - Bug status
+Author - The creator of the bug report
+Assigned To - Name of the employee assigned to solve the problem
+
+Environment 
+
+OS/Service package, etc./Browser + version - Information about the environment where the bug was found
+
+Description
+
+Steps to Reproduce - Steps by which you can easily reproduce the situation that led to the error.
+Result - The result obtained after passing the steps to playback
+Expected Result - Expected correct result
+
+Extensions
+
+Attachment - A file with logs, a screenshot, or any other document that can help clarify the cause of the error or indicate a way to solve the problem
