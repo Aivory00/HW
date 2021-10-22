@@ -12,7 +12,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"var jsonData = response.json();\r",
+							"var jsonData = pm.response.json();\r",
 							"pm.environment.set(\"token\", jsonData.token);"
 						],
 						"type": "text/javascript"
