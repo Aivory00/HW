@@ -3,7 +3,7 @@ create table employees (
 	employee_name varchar (50) not null
 );
 insert  into employees (id, employee_name) 
-values (default, 'Седова Ярослава');
+values (default, 'РЎРµСЂРіРµР№ Р¤РёР»Р°С‚РѕРІ');
 select * from employees;
 
 --====================================
